@@ -115,3 +115,5 @@ class List(TemplateView):
             'all_parts': all_parts,
         }
         return render(request, self.template_name, context)
+    def post(self, request):
+        pass
