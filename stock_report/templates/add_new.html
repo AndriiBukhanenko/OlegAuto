@@ -1,0 +1,29 @@
+{% extends "stock_report/index.html" %}
+    <h1>Добавить автомобиль</h1>
+    <form action="add-car/" method="POST">
+        {% csrf_token %}
+        {{form_from_car.as_p}}
+        <input type="submit" value="Добавить"/>
+        {{result_add_car}}
+    </form>
+    <h1>Добавить тип запчасти автомобиля</h1>
+    <form action="add-auto-parts-type/" method="POST">
+        {% csrf_token %}
+        {{form_from_auto_parts_type.as_p}}
+        <input type="submit" value="Добавить"/>
+        {{result_add_auto_parts_type}}
+    </form>
+    <h1>Добавить запчасть автомобиля</h1>
+    <form action="add-auto-parts/" method="POST">
+        {% csrf_token %}
+        {{form_from_auto_parts.as_p}}
+        <input type="submit" value="Добавить"/>
+        {{result_add_auto_parts}}
+    </form>
+    <h1>Добавить деталь на склад</h1>
+    <form action="add-auto-parts-warehouse/" method="POST">
+        {% csrf_token %}
+        {{form_from_auto_parts_warehouse.as_p}}
+        <input type="submit" value="Добавить"/>
+        {{add_auto_parts_warehouse}}
+    </form>
