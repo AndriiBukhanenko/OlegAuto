@@ -3,39 +3,25 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Hello Django</title>
-    <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
+    <title>OlegAuto</title>
+    {% load staticfiles %}
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}"
+    type="text/css"/>
 
 </head>
 <body>
-    <h1>Добавить автомобиль</h1>
-    <form action="add-car/" method="POST">
-        {% csrf_token %}
-        {{form_from_car.as_p}}
-        <input type="submit" value="Добавить"/>
-        {{result_add_car}}
-    </form>
-    <h1>Добавить тип запчасти автомобиля</h1>
-    <form action="add-auto-parts-type/" method="POST">
-        {% csrf_token %}
-        {{form_from_auto_parts_type.as_p}}
-        <input type="submit" value="Добавить"/>
-        {{result_add_auto_parts_type}}
-    </form>
-    <h1>Добавить запчасть автомобиля</h1>
-    <form action="add-auto-parts/" method="POST">
-        {% csrf_token %}
-        {{form_from_auto_parts.as_p}}
-        <input type="submit" value="Добавить"/>
-        {{result_add_auto_parts}}
-    </form>
-    <h1>Добавить деталь на склад</h1>
-    <form action="add-auto-parts-warehouse/" method="POST">
-        {% csrf_token %}
-        {{form_from_auto_parts_warehouse.as_p}}
-        <input type="submit" value="Добавить"/>
-        {{add_auto_parts_warehouse}}
-    </form>
+    <div class="jumbotron">
+        <div class="container">
+        <p>
+            <a href="/form/" class="btn btn-success btn-lg">Добавить</a>
+            <a href="/list/" class="btn btn-primary btn-lg">Просмотреть</a>
 
+        </p>
+        </div>
+        <div class="container">
+            {% block content%}
+            {% endblock %}
+        </div>
+    </div>
 </body>
 </html>
