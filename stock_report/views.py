@@ -4,6 +4,9 @@ from django.views.generic import TemplateView
 from . import forms
 from .models import AutoPartsWarehouse
 
+def start_page(request):
+    return render(request, "index.html")
+
 def form(request):
     form_from_car = forms.CarForm
     form_from_auto_parts_type = forms.AutoPartsTypeForm
@@ -16,7 +19,7 @@ def form(request):
         "form_from_auto_parts_warehouse": form_from_auto_parts_warehouse,
     }
 
-    return render(request, "index.html", context)
+    return render(request, "add_new.html", context)
 
 def add_car(request):
     form_from_car = forms.CarForm
@@ -38,7 +41,7 @@ def add_car(request):
                 "result_add_car": "Добавлено !",
             }
 
-            return render(request, "index.html", context)
+            return render(request, "add_new.html", context)
 
 def add_auto_parts_type(request):
     form_from_car = forms.CarForm
@@ -60,7 +63,7 @@ def add_auto_parts_type(request):
                 "result_add_auto_parts_type": "Добавлено !",
             }
 
-            return render(request, "index.html", context)
+            return render(request, "add_new.html", context)
 
 def add_auto_parts(request):
     form_from_car = forms.CarForm
@@ -82,7 +85,7 @@ def add_auto_parts(request):
                 "result_add_auto_parts": "Добавлено !",
             }
 
-            return render(request, "index.html", context)
+            return render(request, "add_new.html", context)
 
 def add_auto_parts_warehouse(request):
     form_from_car = forms.CarForm
@@ -104,7 +107,7 @@ def add_auto_parts_warehouse(request):
                 "result_add_auto_parts_warehouse": "Добавлено !",
             }
 
-            return render(request, "index.html", context)
+            return render(request, "add_new.html", context)
 
 class List(TemplateView):
     template_name = 'warehouse.html'
