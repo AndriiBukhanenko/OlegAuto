@@ -21,11 +21,15 @@ def form(request):
 
     return render(request, "add_new.html", context)
 
+def add_car_view(request):
+    form_from_car = forms.CarForm
+    context = {
+        "form_from_car": form_from_car,
+    }
+    return render(request, "add_car.html", context)
+
 def add_car(request):
     form_from_car = forms.CarForm
-    form_from_auto_parts_type = forms.AutoPartsTypeForm
-    form_from_auto_parts = forms.AutoPartsForm
-    form_from_auto_parts_warehouse = forms.AutoPartsWarehouseForm
 
     form = forms.CarForm(request.POST)
     if request.method == "POST":
@@ -35,13 +39,10 @@ def add_car(request):
 
             context = {
                 "form_from_car": form_from_car,
-                "form_from_auto_parts_type": form_from_auto_parts_type,
-                "form_from_auto_parts": form_from_auto_parts,
-                "form_from_auto_parts_warehouse": form_from_auto_parts_warehouse,
                 "result_add_car": "Добавлено !",
             }
 
-            return render(request, "add_new.html", context)
+            return render(request, "add_car.html", context)
 
 def add_auto_parts_type(request):
     form_from_car = forms.CarForm
