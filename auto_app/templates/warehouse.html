@@ -1,15 +1,16 @@
 {% extends "index.html" %}
 {%block content %}
-<table>
-    <tr>
-        <td>Название запчасти</td>
-        <td>Количество запчатей</td>
-        <td>Цена запчасти</td>
+<table class="table table-sm">
+    <thead class="thead-dark table_board">
+        <tr>
+            <th>Название запчасти</th>
+            <th>Количество запчатей</th>
+            <th>Цена запчасти</th>
 
-    </tr>
+        </tr>
+    </thead>
     {% for parts in all_parts %}
     <tr>
-        <td>{{parts.id}}</td>
         <td>{{parts.parts_name}}</td>
         <td>{{parts.numbers_of_pats}}</td>
         <td>{{parts.price_of_parts}}</td>
