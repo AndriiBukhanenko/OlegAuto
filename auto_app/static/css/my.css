@@ -1,0 +1,22 @@
+.myfield {
+            padding-left: 20px;
+
+            border:2px solid #343a40;
+            border-radius:5px;
+            height:35px;
+            width:200px;
+            margin: 5px 10px 0px 10px;
+            font-size:30px
+            font-style:italic
+            font-weight:bold
+        }
+
+.mylabel{
+            font-size:30px
+            font-style:italic
+            font-weight:bold
+}
+
+.myh1{
+            margin: 0px 0px 50px 0px;
+}
