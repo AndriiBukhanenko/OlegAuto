@@ -3,19 +3,27 @@
 <table class="table table-sm">
     <thead class="thead-dark table_board">
         <tr>
-            <th>Название запчасти</th>
-            <th>Количество запчатей</th>
-            <th>Цена запчасти</th>
+
+            <th>Назва запчастини</th>
+            <th>Кількість запчастей</th>
+            <th>Ціна запчастини</th>
 
         </tr>
     </thead>
+    {% csrf_token %}
     {% for parts in all_parts %}
     <tr>
-        <td>{{parts.parts_name}}</td>
+
+        <td>{{parts.parts_name_warehouse}}</td>
         <td>{{parts.numbers_of_pats}}</td>
         <td>{{parts.price_of_parts}}</td>
+        <td><a href="/edit/{{parts.parts_name_warehouse_id}}/">edit</a> | <a href="/delete/{{parts.parts_name_warehouse_id}}">delete</a></td>
     </tr>
     {% endfor %}
+
+    {% if empty %}
+    <p>Нічого немає !</p>
+    {% endif %}
 </table>
 {% endblock %}
 

@@ -1,15 +1,13 @@
 {% extends "index.html" %}
 {%block content %}
 
-    <h2 class="font-italic myh1">Добавить автомобиль</h2>
-    <form action="add-car/" method="POST">
+    <h2 class="font-italic myh1">Добавити автомобіль</h2>
+    <form action="/add-car/" method="POST">
         <div class="mylabel">
             {% csrf_token %}
             {{form_from_car.as_p}}
         </div>
-        <button type="submit" class="btn btn-dark btn-lg">Добавить</button>
-        <p>
-            {{result_add_car}}
-        </p>
+        <button type="submit" class="btn btn-dark btn-lg mr-sm-5">Добавити</button> {{result_add_car}}
+
     </form>
 {% endblock %}

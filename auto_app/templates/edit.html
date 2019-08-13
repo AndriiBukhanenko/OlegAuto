@@ -1,0 +1,21 @@
+{% extends "index.html" %}
+{%block content %}
+    <h2 class="font-italic myh1">Змініти данні</h2>
+    <form method="POST">
+
+            {% csrf_token %}
+            <p>
+                <label>Кількість запчастей :</label><br>
+                <input  class="myfield" type="number" name="numbers_of_pats" value="{{parts.numbers_of_pats}}" />
+
+            </p>
+            <p>
+                <label>Ціна 1й запчастини :</label><br>
+                <input class="myfield" type="number" name="price_of_parts" value="{{parts.price_of_parts}}" />
+            </p>
+
+            <button type="submit" class="btn btn-dark btn-lg mr-sm-5">Зберегти</button>
+
+    </form>
+{% endblock %}
+

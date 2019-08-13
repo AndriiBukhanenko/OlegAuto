@@ -24,24 +24,27 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
               <li class="nav-item dropdown active">
-                <a class="btn btn-outline-light ml-2 my-2 my-sm-0 dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="/form/">Добавить<span class="caret"></span><span class="sr-only">(current)</span></a>
+                <a class="btn btn-outline-light ml-2 my-2 my-sm-0 dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="/form/">Добавити<span class="caret"></span><span class="sr-only">(current)</span></a>
                 <ul class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="/add-car-view/">Автомобиль</a>
-                    <a class="dropdown-item" href="#">Тип запчасти</a>
+                    <a class="dropdown-item" href="/add-car-view/">Автомобіль</a>
+                    <a class="dropdown-item" href="/add-auto-parts-type-view/">Тип запчастини</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Запчасть</a>
+                    <a class="dropdown-item" href="/add-auto-parts-view/">Запчастину</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Запчасть на склад</a>
+                    <a class="dropdown-item" href="/add-auto-parts-warehouse-view/">Запчастину на склад</a>
                 </ul>
               </li>
           <li class="nav-item active">
-            <a class="btn btn-outline-light ml-2 my-2 my-sm-0" href="/list/">Просмотреть<span class="sr-only">(current)</span></a>
+            <a class="btn btn-outline-light ml-2 my-2 my-sm-0" href="/list/">Проглянути<span class="sr-only">(current)</span></a>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <!--
+        <form class="form-inline my-2 my-lg-0" action="/list/" method="post" accept-charset="utf-8">
+          {% csrf_token %}
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" name="search" aria-label="Search">
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
+            --!>
       </div>
     </nav>
     <div class="jumbotron">
