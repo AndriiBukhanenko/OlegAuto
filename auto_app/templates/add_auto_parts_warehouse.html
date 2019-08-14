@@ -2,7 +2,7 @@
 {%block content %}
 
     <h2 class="font-italic myh1">Добавити деталь на склад</h2>
-    <form action="/add-auto-parts-warehouse/" method="POST">
+    <form action="/auto_app/add-auto-parts-warehouse/" method="POST">
         <div class="mylabel">
             {% csrf_token %}
             {{form_from_auto_parts_warehouse.as_p}}

@@ -26,16 +26,16 @@
               <li class="nav-item dropdown active">
                 <a class="btn btn-outline-light ml-2 my-2 my-sm-0 dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="/form/">Добавити<span class="caret"></span><span class="sr-only">(current)</span></a>
                 <ul class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="/add-car-view/">Автомобіль</a>
-                    <a class="dropdown-item" href="/add-auto-parts-type-view/">Тип запчастини</a>
+                    <a class="dropdown-item" href="/auto_app/add-car-view/">Автомобіль</a>
+                    <a class="dropdown-item" href="/auto_app/add-auto-parts-type-view/">Тип запчастини</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="/add-auto-parts-view/">Запчастину</a>
+                    <a class="dropdown-item" href="/auto_app/add-auto-parts-view/">Запчастину</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="/add-auto-parts-warehouse-view/">Запчастину на склад</a>
+                    <a class="dropdown-item" href="/auto_app/add-auto-parts-warehouse-view/">Запчастину на склад</a>
                 </ul>
               </li>
           <li class="nav-item active">
-            <a class="btn btn-outline-light ml-2 my-2 my-sm-0" href="/list/">Проглянути<span class="sr-only">(current)</span></a>
+            <a class="btn btn-outline-light ml-2 my-2 my-sm-0" href="/auto_app/list/">Проглянути<span class="sr-only">(current)</span></a>
           </li>
         </ul>
           <!--
@@ -44,7 +44,15 @@
           <input class="form-control mr-sm-2" type="text" placeholder="Search" name="search" aria-label="Search">
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
-            --!>
+          --!>
+
+        <form class="form-inline my-2 my-lg-0" action="/logout/" method="post" >
+            {% csrf_token %}
+            {% if user.is_authenticated %}
+                {% csrf_token %}
+                <button type="submit" class="btn btn-danger btn-sm mr-sm-5">logout</button>
+        {% endif %}
+        </form>
       </div>
     </nav>
     <div class="jumbotron">
@@ -52,6 +60,9 @@
             {% block content%}
             {% endblock %}
         </div>
+
+
+    </form>
     </div>
 </body>
 </html>

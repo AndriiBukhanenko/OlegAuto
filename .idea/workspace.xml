@@ -1,48 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7908a93b-d429-405e-90aa-39b239f3aa42" name="Default Changelist" comment="new logic">
-      <change afterPath="$PROJECT_DIR$/auto_app/templates/add_auto_parts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto_app/templates/add_auto_parts_type.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto_app/templates/add_auto_parts_warehouse.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto_app/templates/edit.html" afterDir="false" />
+    <list default="true" id="7908a93b-d429-405e-90aa-39b239f3aa42" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/login_form/static/css/my.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login_form/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/auto_app/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_app/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_app/migrations/0002_auto_20190810_2039.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_app/migrations/0003_auto_20190812_1939.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_app/migrations/0004_auto_20190812_1957.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_app/migrations/0005_auto_20190812_2140.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_app/migrations/0006_auto_20190812_2227.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/auto_app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_app/static/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_app/static/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_app/static/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_app/static/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_app/static/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_app/static/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_app/static/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_app/static/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_app/static/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_app/static/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_app/static/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_app/static/css/bootstrap.min.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/auto_app/static/css/my.css" beforeDir="false" afterPath="$PROJECT_DIR$/auto_app/static/css/my.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_app/static/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_app/static/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_app/static/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_app/static/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_app/static/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_app/static/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_app/static/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_app/static/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto_app/templates/add_auto_parts.html" beforeDir="false" afterPath="$PROJECT_DIR$/auto_app/templates/add_auto_parts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto_app/templates/add_auto_parts_type.html" beforeDir="false" afterPath="$PROJECT_DIR$/auto_app/templates/add_auto_parts_type.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto_app/templates/add_auto_parts_warehouse.html" beforeDir="false" afterPath="$PROJECT_DIR$/auto_app/templates/add_auto_parts_warehouse.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auto_app/templates/add_car.html" beforeDir="false" afterPath="$PROJECT_DIR$/auto_app/templates/add_car.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_app/templates/add_new.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/auto_app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/auto_app/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto_app/templates/save.html" beforeDir="false" afterPath="$PROJECT_DIR$/auto_app/templates/save.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auto_app/templates/warehouse.html" beforeDir="false" afterPath="$PROJECT_DIR$/auto_app/templates/warehouse.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/auto_app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auto_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/auto_app/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oleg_auto/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/oleg_auto/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oleg_auto/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/oleg_auto/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,20 +29,62 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto_app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="171" column="18" lean-forward="true" selection-start-line="171" selection-start-column="18" selection-end-line="171" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-2344">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/auto_app/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto_app/urls.py">
+        <entry file="file://$PROJECT_DIR$/auto_app/static/css/my.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="476">
+              <caret line="28" column="12" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auto_app/templates/save.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="59">
+              <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auto_app/templates/add_auto_parts_warehouse.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="11" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="11" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auto_app/templates/warehouse.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login_form/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -77,75 +93,29 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto_app/templates/edit.html">
+        <entry file="file://$PROJECT_DIR$/login_form/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto_app/static/css/my.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" selection-start-column="1" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto_app/templates/add_car.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="83" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="83" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto_app/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/auto_app/templates/warehouse.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto_app/templates/add_auto_parts_warehouse.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto_app/templates/add_auto_parts.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="74" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto_app/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="39" column="75" selection-start-line="39" selection-start-column="57" selection-end-line="39" selection-end-column="75" />
+            <state relative-caret-position="461">
+              <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
               <folding>
-                <element signature="e#0#24#0" expanded="true" />
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db.sqlite3">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oleg_auto/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+              <folding>
+                <element signature="e#633#665#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -156,14 +126,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>доба</find>
+      <find>LOGIN_REDIRECT_URL</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -185,30 +156,37 @@
         <option value="$PROJECT_DIR$/stock_report/forms.py" />
         <option value="$PROJECT_DIR$/stock_report/models.py" />
         <option value="$PROJECT_DIR$/auto_app/admin.py" />
-        <option value="$PROJECT_DIR$/oleg_auto/urls.py" />
-        <option value="$PROJECT_DIR$/oleg_auto/settings.py" />
         <option value="$PROJECT_DIR$/auto_app/static/css/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/auto_app/templates/save.html" />
         <option value="$PROJECT_DIR$/auto_app/templates/add_new.html" />
-        <option value="$PROJECT_DIR$/auto_app/static/css/my.css" />
         <option value="$PROJECT_DIR$/auto_app/forms.py" />
         <option value="$PROJECT_DIR$/auto_app/migrations/0001_initial.py" />
         <option value="$PROJECT_DIR$/auto_app/models.py" />
-        <option value="$PROJECT_DIR$/auto_app/templates/index.html" />
+        <option value="$PROJECT_DIR$/auto_app/templates/edit.html" />
+        <option value="$PROJECT_DIR$/oleg_auto/urls.py" />
+        <option value="$PROJECT_DIR$/login_form/static.py" />
+        <option value="$PROJECT_DIR$/login_form/templates/edit.html" />
+        <option value="$PROJECT_DIR$/auto_app/templates/save.html" />
         <option value="$PROJECT_DIR$/auto_app/templates/add_auto_parts.html" />
         <option value="$PROJECT_DIR$/auto_app/templates/add_auto_parts_type.html" />
         <option value="$PROJECT_DIR$/auto_app/templates/add_auto_parts_warehouse.html" />
         <option value="$PROJECT_DIR$/auto_app/templates/add_car.html" />
-        <option value="$PROJECT_DIR$/auto_app/templates/edit.html" />
         <option value="$PROJECT_DIR$/auto_app/urls.py" />
-        <option value="$PROJECT_DIR$/auto_app/views.py" />
         <option value="$PROJECT_DIR$/auto_app/templates/warehouse.html" />
+        <option value="$PROJECT_DIR$/auto_app/views.py" />
+        <option value="$PROJECT_DIR$/login_form/static/css/my.css" />
+        <option value="$PROJECT_DIR$/login_form/templates/log_in.html" />
+        <option value="$PROJECT_DIR$/login_form/templates/index.html" />
+        <option value="$PROJECT_DIR$/login_form/urls.py" />
+        <option value="$PROJECT_DIR$/oleg_auto/settings.py" />
+        <option value="$PROJECT_DIR$/login_form/views.py" />
+        <option value="$PROJECT_DIR$/auto_app/static/css/my.css" />
+        <option value="$PROJECT_DIR$/auto_app/templates/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1347" />
-    <option name="y" value="131" />
+    <option name="x" value="-7" />
+    <option name="y" value="97" />
     <option name="width" value="1026" />
     <option name="height" value="546" />
   </component>
@@ -227,48 +205,17 @@
             </path>
             <path>
               <item name="oleg_auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="oleg_auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (django_project) &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="oleg_auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (django_project) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="django_project" type="b5f07198:RTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="oleg_auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (django_project) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="django_project" type="b5f07198:RTreeStructureProvider$1" />
-              <item name="oleg_auto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oleg_auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (django_project) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="django_project" type="b5f07198:RTreeStructureProvider$1" />
               <item name="oleg_auto" type="462c0819:PsiDirectoryNode" />
               <item name="auto_app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="oleg_auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (django_project) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="django_project" type="b5f07198:RTreeStructureProvider$1" />
               <item name="oleg_auto" type="462c0819:PsiDirectoryNode" />
               <item name="auto_app" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="oleg_auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (django_project) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="django_project" type="b5f07198:RTreeStructureProvider$1" />
               <item name="oleg_auto" type="462c0819:PsiDirectoryNode" />
               <item name="auto_app" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
@@ -276,11 +223,77 @@
             </path>
             <path>
               <item name="oleg_auto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oleg_auto" type="462c0819:PsiDirectoryNode" />
+              <item name="auto_app" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oleg_auto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oleg_auto" type="462c0819:PsiDirectoryNode" />
+              <item name="login_form" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oleg_auto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oleg_auto" type="462c0819:PsiDirectoryNode" />
+              <item name="login_form" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oleg_auto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oleg_auto" type="462c0819:PsiDirectoryNode" />
+              <item name="login_form" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oleg_auto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oleg_auto" type="462c0819:PsiDirectoryNode" />
+              <item name="login_form" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oleg_auto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oleg_auto" type="462c0819:PsiDirectoryNode" />
+              <item name="login_form" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oleg_auto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="oleg_auto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django_project) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="oleg_auto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django_project) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="django_project" type="b5f07198:RTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="oleg_auto" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="&lt; Python 3.6 (django_project) &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="django_project" type="b5f07198:RTreeStructureProvider$1" />
               <item name="oleg_auto" type="462c0819:PsiDirectoryNode" />
-              <item name="auto_app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oleg_auto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django_project) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="django_project" type="b5f07198:RTreeStructureProvider$1" />
+              <item name="oleg_auto" type="462c0819:PsiDirectoryNode" />
+              <item name="login_form" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oleg_auto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django_project) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="django_project" type="b5f07198:RTreeStructureProvider$1" />
+              <item name="oleg_auto" type="462c0819:PsiDirectoryNode" />
+              <item name="login_form" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -293,10 +306,14 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/.virtualenvs/tigzver-EPx4DYKb" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/login_form" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\django_project\oleg_auto\login_form" />
+      <recent name="E:\django_project\oleg_auto\login_form\static\css" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\django_project\oleg_auto\auto_app" />
       <recent name="E:\django_project\oleg_auto\stock_report\static\css" />
@@ -488,18 +505,33 @@
       <option name="project" value="LOCAL" />
       <updated>1565696878544</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="new logic">
+      <created>1565711855319</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1565711855319</updated>
+    </task>
+    <task id="LOCAL-00025" summary="new logic">
+      <created>1565711882502</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1565711882502</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23471883" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.290469" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32922733" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32922733" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.95090014" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -535,19 +567,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="new logic" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/stock_report/static/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stock_report/migrations/0005_auto_20190809_2232.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stock_report/migrations/0004_auto_20190809_2216.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/stock_report/migrations/0002_auto_20190719_1048.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -633,23 +652,6 @@
     <entry file="file://$PROJECT_DIR$/oleg_auto/wsgi.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/oleg_auto/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding>
-            <element signature="e#633#665#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oleg_auto/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/auto_app/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -701,13 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auto_app/templates/save.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/auto_app/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -715,13 +710,6 @@
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto_app/templates/add_auto_parts_type.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="74" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
         </state>
       </provider>
     </entry>
@@ -735,13 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auto_app/templates/add_auto_parts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="74" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/auto_app/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -752,24 +733,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auto_app/templates/add_auto_parts_warehouse.html">
+    <entry file="file://$PROJECT_DIR$/login_form/static.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_app/templates/add_auto_parts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="29" />
+        <state relative-caret-position="68">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auto_app/templates/add_car.html">
+    <entry file="file://$PROJECT_DIR$/auto_app/templates/add_auto_parts_type.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="83" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto_app/static/css/my.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="1" selection-end-column="8" />
+        <state relative-caret-position="68">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -780,37 +757,122 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/login_form/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login_form/static/css/my.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_app/templates/add_car.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/auto_app/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="102">
+          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auto_app/views.py">
+    <entry file="file://$PROJECT_DIR$/login_form/templates/log_in.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="171" column="18" lean-forward="true" selection-start-line="171" selection-start-column="18" selection-end-line="171" selection-end-column="18" />
+        <state relative-caret-position="493">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login_form/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oleg_auto/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="123" column="15" lean-forward="true" selection-start-line="123" selection-start-column="15" selection-end-line="123" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.sqlite3">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oleg_auto/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#633#665#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auto_app/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/login_form/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_app/templates/add_auto_parts_warehouse.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login_form/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2344">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_app/static/css/my.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/auto_app/templates/warehouse.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        <state relative-caret-position="442">
+          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_app/templates/save.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_app/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
         </state>
       </provider>
     </entry>

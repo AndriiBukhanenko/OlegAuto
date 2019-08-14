@@ -2,7 +2,7 @@
 {%block content %}
 
     <h2 class="font-italic myh1">Добавити тип запчастини автомобіля</h2>
-    <form action="/add-auto-parts-type/" method="POST">
+    <form action="/auto_app/add-auto-parts-type/" method="POST">
         <div class="mylabel">
             {% csrf_token %}
             {{form_from_auto_parts_type.as_p}}

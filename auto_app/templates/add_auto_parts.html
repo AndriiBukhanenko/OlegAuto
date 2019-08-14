@@ -2,7 +2,7 @@
 {%block content %}
 
     <h2 class="font-italic myh1">Добавити запчастину автомобіля</h2>
-    <form action="/add-auto-parts/" method="POST">
+    <form action="/auto_app/add-auto-parts/" method="POST">
         <div class="mylabel">
             {% csrf_token %}
             {{form_from_auto_parts.as_p}}

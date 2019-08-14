@@ -157,7 +157,7 @@ def edit(request, id):
             parts.price_of_parts = request.POST.get("price_of_parts")
             parts.save()
 
-            return HttpResponseRedirect("/list/")
+            return HttpResponseRedirect("/auto_app/list/")
         else:
             return render(request, "edit.html", {"parts": parts})
     except AutoPartsWarehouse.DoesNotExist:
@@ -167,6 +167,6 @@ def delete(request, id):
     try:
         person = AutoPartsWarehouse.objects.get(parts_name_warehouse_id=id)
         person.delete()
-        return HttpResponseRedirect("/list/")
+        return HttpResponseRedirect("/auto_app/list/")
     except AutoPartsWarehouse.DoesNotExist:
         return HttpResponseNotFound("<h2>Person not found</h2>")

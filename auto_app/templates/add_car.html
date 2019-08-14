@@ -2,7 +2,7 @@
 {%block content %}
 
     <h2 class="font-italic myh1">Добавити автомобіль</h2>
-    <form action="/add-car/" method="POST">
+    <form action="/auto_app/add-car/" method="POST">
         <div class="mylabel">
             {% csrf_token %}
             {{form_from_car.as_p}}
